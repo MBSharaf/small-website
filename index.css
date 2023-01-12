@@ -1,0 +1,135 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'verdana';
+}
+
+body{
+    background-image: url(BG1.jpg);
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+
+.text{
+    
+    justify-content: center;
+    z-index: 999;
+    opacity: 100%;
+    align-items: center;
+    display: flex;
+   
+}
+
+.text h1{
+    display: flex;
+    color: red;
+    position: absolute;
+    top: 20PX;
+    left: 5%;
+    font-style:oblique;
+    z-index: 1;
+}
+.text h2{
+    display: flex;
+    color: white;
+    position: absolute;
+    top: 20PX;
+    left: 5.1%;
+    font-style:oblique;
+}
+
+.Logo{
+    font-size: 25px;
+    transition: 0.7s;
+}
+
+.Logo:hover{
+    font-size: 30px;
+    transform: scale();
+}
+
+.text ul{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+   position: absolute;
+   top: 20PX;
+   right: 5%;
+}
+
+.text ul li a{
+    color: #fff;
+    text-decoration: none;
+    margin-right: 60px ;
+    font-size: 15px;
+    font: 900;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: 0.7s;
+}
+
+.text ul li a:hover{
+    font-size: 20px;
+    color: red;
+    background-color: black;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px;
+    transform: scale();
+}
+
+.contain{
+    display: block;
+    color: #fff;
+    position: absolute;
+    top: 30%;
+    left: 40px;
+   
+}
+
+.contain H1{
+    padding-bottom: 5px;
+    transition: 0.7s;
+}
+
+.contain H1:hover{
+    font-size: 30px;
+    color: red;
+    transform: scale();
+}
+
+.contain h5{
+    padding-bottom: 15px;
+    color: red; 
+    position: relative;
+    left: 130px;
+    transition: 0.7s;
+}
+
+.contain H5:hover{
+    font-size: 15px;
+    color: white;
+    transform: scale();
+}
+.button{
+    display:block;
+    justify-content: center;
+    background-color: transparent;
+    color: red;
+    border: 1px solid white;
+    padding: 10px;
+    position: absolute;
+    bottom: 20px;
+    left: 41%;
+    transition: 0.7s;
+}
+
+.button:hover{
+    font-size: 20px;
+    color: white;
+    border: 1px solid red;
+    transform: scale();
+    cursor: pointer;
+}
+
